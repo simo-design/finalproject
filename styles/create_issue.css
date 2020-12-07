@@ -1,0 +1,36 @@
+body {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-items: center;
+    padding: 10px 1000px 10px 50px;
+    flex-direction: row;
+   
+}
+
+
+.icons {
+    float: left;
+    padding-top: 25px;
+}
+.form{
+    float: right;
+    margin-right: 70%;
+    padding-top: 10px;
+}
+
+a{
+    color: black;
+}
+
+button{
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(47, 68, 187);
+    color: white;
+    border-radius: 5px;;
+}

@@ -4,12 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INFO2180 Final Project</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/create_issue.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <header>
-        <img src="icons/bug.png" alt="bug">
-        <h1>BugMe Issue Tracker</h1>
+        <i class="material-icons">bug_report</i><br/><h4>BugMe Issue Tracker</h4>
     </header>
+    <aside>
+        <div class="icons">
+            <i class="material-icons">home</i> <a href="#">Home</a> <br/><br/>
+            <i class="material-icons">person_add</i> <a href="#">Add User</a> <br/><br/>
+            <i class="material-icons">add</i> <a href="#">New Issue</a> <br/><br/>
+            <i class="material-icons">power_settings_new</i> <a href="#">Logout</a> <br/><br/>
+        </div>
+    </aside>    
+    <main>    
+        <div class="form">
+            <form accept-charset="UTF-8" autocomplete="off" method="GET" target="_blank">
+                
+                <h1>Create Issue</h1>
+
+                <label for="title">Title</label> <br/>
+                <input type="text" name="title" id="title"/><br /><br />
+                    
+                <label for="description">Description</label><br/>
+                <input type="text" name="description" id="description"/><br /><br />
+                
+                <label for="assigned_to">Assigned To</label><br/>
+                <input type="text" name="assigned_to" id="assigned_to" /><br /><br />
+                    
+                <label for="type">Type</label><br/>
+                <input type="text" name="type" id="type" /><br /><br />
+                
+                <label for="priority">Priority</label><br/>
+                <input type="text" name="priority" id="priority" /><br /><br />
+
+                <button type="submit" value="Submit">Submit</button>
+            </form>
+        </div>    
+        </main> 
 </body>
 </html>
