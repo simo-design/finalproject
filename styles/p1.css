@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 75%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.box {
+    float: left;
+    width: 20%;
+    padding: 50px;
+}
+
+.box1 {
+    float: left;
+    width: 80%;
+    padding: 50px;
+}
+
+.boxes:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+    padding: 1px;
+    text-align: left;
+    background: black;
+    color: white;
+    font-size: 10px;
+}
